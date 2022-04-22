@@ -5,21 +5,21 @@ using UnityEngine.UI;
 
 public class ej2 : MonoBehaviour
 {
-    public int EdadUsuario;
     public Text MiTexto;
+    public int edadUsuario;
     
     // Start is called before the first frame update
     void Start()
     {
-        if (EdadUsuario >= 18)
+        if (edadUsuario >= 18)
         {
             MiTexto.text = "El usuario es mayor de edad";
             Debug.Log("El usuario es mayor de edad");
         }
         else
         {
-            MiTexto.text = "El usuario es menor de edad";
-            Debug.Log("El usuario es menor de edad");
+            MiTexto.text = "el usuario es menor de edad";
+            Debug.Log("el usuario es menor de edad");
         }
     }
 
